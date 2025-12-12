@@ -1,0 +1,50 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(102, 25, 196);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.container{
+    text-align: center;
+    background-color:rgb(187, 179, 235);
+    background-size: cover;
+    min-height:100vh;
+    padding:30px;
+    margin:0;
+}
+
+h1 {
+    font-family: 'Montserrat', serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: #444;
+}
+
+.innercont{
+    border-radius: 5px;
+    border-width: 0px;
+    padding:5px;
+      
+}
+.recipe{
+    padding:20px;
+    background:aliceblue;
+    display: none;
+}
+.recipe ul,
+.recipe ol{
+    padding-left:30px;
+}
+.unordered-list{
+    list-style-type:disc;
+}
